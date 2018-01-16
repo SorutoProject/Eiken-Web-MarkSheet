@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>英検®用 Web マークシート</title>
+    <style>body{font-family:meiryo;}table, td, th { border: 2px #808080 solid; }</style>
+    <script async src="check.js"></script>
+  </head>
+  <body>
+    <p>英検®用 Web マークシート<br>
+      クリックすると、塗りつぶされます。<br>チェック済みのマークをクリックすると、解除されます<br><input type="button" onclick="location.reload();" value="リセット"></p>
+    <table style="width: 208px; height: 1744px;">
+      <tbody>
+        <tr>
+          <td>回答欄<br>
+          </td>
+          <td style="text-align: center;">Reading<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 28px;">番号<br>
+          </td>
+          <td style="height: 28px;"><img src="mark/b1.png"> <img src="mark/b2.png">
+            <img src="mark/b3.png"> <img src="mark/b4.png"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(1)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします" onclick="check('1','r11');" id="r11"> <img
+
+              src="mark/w2.png" title="2 を選択するにはクリックします" onclick="check('2','r12');" id="r12"> <img src="mark/w3.png"
+
+              title="3 を選択するにはクリックします" onclick="check('3','r13');" id="r13"> <img src="mark/w4.png" title="4 を選択するにはクリックします" onclick="check('4','r14');" id="r14"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(2)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(3)<br>
+          </td>
+          <td style="width: 131.967px;"><img src="mark/w1.png" title="1 を選択するにはクリックします">
+            <img src="mark/w2.png" title="2 を選択するにはクリックします"> <img src="mark/w3.png"
+
+              title="3 を選択するにはクリックします"> <img src="mark/w4.png" title="4 を選択するにはクリックします">
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center; width: 46.3167px;">(4)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(5)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(6)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(7)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(8)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(9)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(10)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(11)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(12)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(13)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(14)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(15)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(16)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(17)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(18)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(19)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(20)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(21)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(22)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(23)<br>
+          </td>
+          <td style="width: 131.967px;"><img src="mark/w1.png" title="1 を選択するにはクリックします">
+            <img src="mark/w2.png" title="2 を選択するにはクリックします"> <img src="mark/w3.png"
+
+              title="3 を選択するにはクリックします"> <img src="mark/w4.png" title="4 を選択するにはクリックします">
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center; width: 46.3167px;">(24)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(25)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(26)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(27)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(28)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(29)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(30)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(31)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(32)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(33)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(34)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(35)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(36)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(37)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(38)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(39)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(40)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(41)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+    <br>
+    <table style="width: 208px; height: 1279px;">
+      <tbody>
+        <tr>
+          <td style="width: 58.3167px;"> 解答欄<br>
+          </td>
+          <td style="text-align: center; width: 119.967px;">Listening<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 28px;">番号<br>
+          </td>
+          <td style="height: 28px;"><img src="mark/b1.png"> <img src="mark/b2.png">
+            <img src="mark/b3.png"> <img src="mark/b4.png"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(1)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(2)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(3)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(4)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(5)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(6)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(7)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(8)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(9)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(10)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(11)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(12)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(13)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(14)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(15)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(16)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(17)</td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(18)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(19)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(20)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(21)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(22)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(23)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(24)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(25)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(26)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(27)</td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(28)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(29)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"> </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">(30)<br>
+          </td>
+          <td><img src="mark/w1.png" title="1 を選択するにはクリックします"> <img src="mark/w2.png"
+
+              title="2 を選択するにはクリックします"> <img src="mark/w3.png" title="3 を選択するにはクリックします">
+            <img src="mark/w4.png" title="4 を選択するにはクリックします"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+    <p> </p>
+  </body>
+</html>
