@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>英検®用 Web マークシート</title>
-    <style>body{font-family:meiryo;}table, td, th { border: 2px #808080 solid;}textarea{width:80%;height:200px;}</style>
+    <style>body{font-family:meiryo;}table, td, th { border: 2px #808080 solid;}textarea{width:80%;height:200px;}input[type="text"]{width:80%;}</style>
     <script async src="check.js"></script>
   </head>
   <body>
@@ -619,7 +619,7 @@
         </tr>
       </tbody>
     </table>
-    <p>Writing(1級~3級)</p><div id="len">現在の単語数</div><input type="button" value="各級の目標単語数" onclick="leninfo();"><br><textarea id="wri" onkeyup="length();"></textarea></p>
+    <p>Writing(1級~3級)</p><div id="len">現在の単語数</div><input type="button" value="各級の目標単語数" onclick="leninfo();"><br>Question(問題):<input type="text" placeholder="Questionを貼り付けてください"><br><textarea id="wri" onkeyup="length();"></textarea></p>
     <p> (C)2018 <a href="http://sorutopj.ml">Soruto Project</a><br><a href="https://github.com/SorutoProject/Eiken-Web-MarkSheet/">GitHub</a></p>
   </body>
 </html>
