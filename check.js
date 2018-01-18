@@ -32,3 +32,7 @@ var info = `各級の目標単語数(Suggested length)
 3級:25~35語`;
 alert(info);
 }
+function Timer(t){
+var sec = t * 60000;
+setTimeout("alert('時間になりました。\n解答をやめてください。');",sec);
+}
